@@ -1,10 +1,10 @@
-package chapter_18;
+package chapter_18.page_724;
 
 import java.io.File;
 import java.io.FilenameFilter;
 import java.util.regex.Pattern;
 
-public class DirFilter implements FilenameFilter {
+public class DirFilter  implements FilenameFilter{
     private Pattern pattern ;
     public DirFilter(String regex){
         pattern = Pattern.compile(regex);
